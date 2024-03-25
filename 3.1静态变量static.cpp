@@ -9,10 +9,12 @@ public:
     int p_c;
     int p_d;
     static int p_a;
-    int func3(){
+    void func3()
+    {
         cout << "public func调用" << endl;
-        func();
-        func2();
+        cout << "this p_c = " << this->p_a << endl;
+        // func();
+        // func2();
     };
     static void func()
     {
@@ -51,6 +53,6 @@ int main()
 
     cout << sizeof(Person) << endl;
     // p1.func2();  // 私有权限不可访问
-    // p1.func3();
+    p1.func3();
     return 0;
 }
