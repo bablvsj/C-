@@ -5,7 +5,8 @@
         "string": "cpp",
         "new": "cpp",
         "random": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "iosfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
